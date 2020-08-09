@@ -7,6 +7,8 @@
       <span class="text-h5 font-weight-bold">software engineer</span>
       and this site is a place to show off my personal projects.
     </div>
+    <v-divider class="my-12" />
+    <div class="text-h3 my-4">Other projects</div>
     <v-timeline class="my-12" dense>
       <v-timeline-item color="blue" class="mb-12 pb-12" small right>
         <v-card class="mx-auto">
