@@ -41,9 +41,7 @@
 
       <v-timeline-item color="red" class="mb-12 pb-12" small right>
         <v-card class="mx-auto" elevation="10">
-          <div class="d-flex justify-center red">
-            <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" />
-          </div>
+          <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" />
           <v-card-title class="headline font-weight-light mb-4 red--text"
             >Hangman</v-card-title
           >
@@ -68,12 +66,10 @@
 
       <v-timeline-item color="green" small right>
         <v-card class="mx-auto" elevation="10">
-          <div class="d-flex justify-center green">
-            <v-img
-              height="auto"
-              src="projects/NutritionCheckpoint/4-30-18/SearchFoods.PNG"
-            />
-          </div>
+          <v-img
+            height="auto"
+            src="projects/NutritionCheckpoint/4-30-18/SearchFoods.PNG"
+          />
           <v-card-title class="headline font-weight-light mb-4 green--text"
             >Nutrition Checkpoint</v-card-title
           >
