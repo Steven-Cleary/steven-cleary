@@ -11,7 +11,7 @@
     <div class="text-h3 my-4">Other projects</div>
     <v-timeline class="my-12" dense>
       <v-timeline-item color="blue" class="mb-12 pb-12" small right>
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" elevation="10">
           <div class="d-flex justify-center blue">
             <v-img
               class="my-2"
@@ -40,7 +40,7 @@
       </v-timeline-item>
 
       <v-timeline-item color="red" class="mb-12 pb-12" small right>
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" elevation="10">
           <div class="d-flex justify-center red">
             <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" />
           </div>
@@ -67,7 +67,7 @@
       </v-timeline-item>
 
       <v-timeline-item color="green" small right>
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" elevation="10">
           <div class="d-flex justify-center green">
             <v-img
               height="auto"
