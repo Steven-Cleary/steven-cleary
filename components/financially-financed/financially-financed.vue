@@ -47,7 +47,7 @@
         <template v-slot:activator="{ on }">
           <div v-on="on">
             <v-btn
-              outlined
+              depressed
               color="primary"
               @click="() => redirect('https://financiallyfinanced.com/')"
             >
