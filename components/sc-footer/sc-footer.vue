@@ -38,9 +38,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.sc-container {
-  max-width: 675px;
-  width: 100%;
-}
-</style>
+<style lang="scss"></style>
