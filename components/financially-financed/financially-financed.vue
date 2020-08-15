@@ -12,6 +12,10 @@
       answer these questions I would have. I thought they were useful so I
       decided to clean them up and create a site so others could use them.
     </div>
+    <v-img
+      height="auto"
+      src="projects\financially-financed\financially-financed.png"
+    />
 
     <div class="d-flex mt-8">
       <v-tooltip bottom>
