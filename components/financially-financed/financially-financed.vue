@@ -17,31 +17,7 @@
       height="auto"
       src="projects\financially-financed\financially-financed.png"
     />
-    <div class="text-h6 my-4 mb-2">Technologies</div>
-    <v-chip color="yellow darken-2" outlined small>
-      <v-icon small left>mdi-language-javascript</v-icon>
-      JS
-    </v-chip>
-    <v-chip class="ml-2" color="nuxt" outlined small>
-      <v-icon small left>mdi-nuxt</v-icon>
-      Nuxt
-    </v-chip>
-    <v-chip class="ml-2" color="vue" outlined small>
-      <v-icon small left>mdi-vuejs</v-icon>
-      Vue
-    </v-chip>
-    <v-chip class="ml-2" color="vuetify" outlined small>
-      <v-icon small left>mdi-vuetify</v-icon>
-      Vuetify
-    </v-chip>
-    <v-chip class="ml-2" color="sass" outlined small>
-      <v-icon small left>mdi-sass</v-icon>
-      Sass
-    </v-chip>
-    <v-chip class="ml-2" color="node" outlined small>
-      <v-icon small left>mdi-nodejs</v-icon>
-      Node
-    </v-chip>
+
     <div class="d-flex mt-12">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
@@ -80,6 +56,31 @@
         <span>Images and extra info</span>
       </v-tooltip>
     </div>
+    <div class="text-h6 my-4 mb-2 mt-12">Technologies</div>
+    <v-chip color="yellow darken-2" outlined small>
+      <v-icon small left>mdi-language-javascript</v-icon>
+      JS
+    </v-chip>
+    <v-chip class="ml-2" color="nuxt" outlined small>
+      <v-icon small left>mdi-nuxt</v-icon>
+      Nuxt
+    </v-chip>
+    <v-chip class="ml-2" color="vue" outlined small>
+      <v-icon small left>mdi-vuejs</v-icon>
+      Vue
+    </v-chip>
+    <v-chip class="ml-2" color="vuetify" outlined small>
+      <v-icon small left>mdi-vuetify</v-icon>
+      Vuetify
+    </v-chip>
+    <v-chip class="ml-2" color="sass" outlined small>
+      <v-icon small left>mdi-sass</v-icon>
+      Sass
+    </v-chip>
+    <v-chip class="ml-2" color="node" outlined small>
+      <v-icon small left>mdi-nodejs</v-icon>
+      Node
+    </v-chip>
   </div>
 </template>
 
