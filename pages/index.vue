@@ -134,9 +134,6 @@ export default {
     financiallyFinanced,
   },
   methods: {
-    redirect(url) {
-      window.open(url, '_blank')
-    },
     selectText(event) {
       const range = document.createRange()
       range.selectNode(event.target)
