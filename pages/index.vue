@@ -20,12 +20,17 @@
       answer these questions I would have. I thought they were useful so I
       decided to clean them up and create a site so others could use them.
     </div>
-    <div class="d-flex">
+
+    <div class="d-flex mt-8">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div v-on="on">
-            <v-btn icon to="https://financiallyfinanced.com/" target="_blank">
-              <v-icon>mdi-launch</v-icon>
+            <v-btn
+              outlined
+              color="primary"
+              @click="() => redirect('https://financiallyfinanced.com/')"
+            >
+              <v-icon left>mdi-launch</v-icon>View
             </v-btn>
           </div>
         </template>
@@ -35,12 +40,23 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div class="ml-4" v-on="on">
-            <v-btn disabled icon>
-              <v-icon>mdi-github</v-icon>
+            <v-btn outlined disabled color="primary">
+              <v-icon left>mdi-github</v-icon>Code
             </v-btn>
           </div>
         </template>
         <span>Code in private repo</span>
+      </v-tooltip>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <div class="ml-4" v-on="on">
+            <v-btn outlined color="primary">
+              <v-icon left>mdi-information-outline</v-icon>Learn more
+            </v-btn>
+          </div>
+        </template>
+        <span>Images and extra info</span>
       </v-tooltip>
     </div>
     <v-divider class="my-12" />
@@ -133,7 +149,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    redirect(url) {
+      window.open(url, '_blank')
+    },
+  },
+}
 </script>
 
 <style lang="scss">
