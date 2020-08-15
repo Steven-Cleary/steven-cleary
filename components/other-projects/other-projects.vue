@@ -2,16 +2,9 @@
   <div>
     <div class="text-h3 my-4">Other projects</div>
     <v-timeline class="my-12" dense>
-      <v-timeline-item color="blue" class="mb-12 pb-12" small right>
+      <v-timeline-item color="blue" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
-          <div class="d-flex justify-center blue">
-            <v-img
-              class="my-2"
-              max-width="150"
-              height="auto"
-              src="projects/Curiocity/4-30-18/Example.PNG"
-            />
-          </div>
+          <div class="blue" style="height: 225px;"></div>
           <v-card-title class="headline font-weight-light mb-4 blue--text"
             >Survey Says</v-card-title
           >
@@ -31,21 +24,17 @@
         </v-card>
       </v-timeline-item>
 
-      <v-timeline-item color="red" class="mb-12 pb-12" small right>
+      <v-timeline-item color="red" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
-          <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" />
+          <!-- <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" /> -->
+          <div class="red" style="height: 225px;"></div>
           <v-card-title class="headline font-weight-light mb-4 red--text"
             >Hangman</v-card-title
           >
           <v-card-subtitle class="pb-1">Sept 2017 - Oct 2017</v-card-subtitle>
           <v-card-text class="text--primary">
             <div>
-              This was an app built as a final project for a web programming
-              class at the University of Arizona. It was built in a group of
-              two. It lets users play hangman with their friends. I decided to
-              post this project due to the fact that it ended up being a very
-              fun game to play with friends. It was a 2 week project so it is
-              significantly smaller than the other ones.
+              This is a project where users can play hangman with their friends.
             </div>
           </v-card-text>
           <v-card-actions>
@@ -58,23 +47,21 @@
 
       <v-timeline-item color="green" small right>
         <v-card class="mx-auto" elevation="10">
-          <v-img
+          <!-- <v-img
             height="auto"
             src="projects/NutritionCheckpoint/4-30-18/SearchFoods.PNG"
-          />
+          /> -->
+          <div class="green" style="height: 225px;"></div>
           <v-card-title class="headline font-weight-light mb-4 green--text"
             >Nutrition Checkpoint</v-card-title
           >
           <v-card-subtitle class="pb-1">May 2017 - Aug 2017</v-card-subtitle>
           <v-card-text class="text--primary">
             <div>
-              As soon as you log into this app you are given a set of daily
-              values that are your goal to hit. You can edit these so that they
-              better fit you. The daily intakes are based off of the FDA
-              recommendations. You can also search for foods. You can search the
-              USDA database which has roughly 7000 entries or you can search the
-              NutritionIX api to search from 700,000+ entries. You can click on
-              foods to see how much of the different nutrients they contain.
+              This is an app that tried to help you optimize your diet, both in
+              terms of nutrition and price. You find a food product, add the
+              price you bought it for and see which products are giving you the
+              best value
             </div>
           </v-card-text>
           <v-card-actions>
