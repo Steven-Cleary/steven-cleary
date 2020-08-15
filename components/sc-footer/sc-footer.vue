@@ -14,7 +14,13 @@
         </div>
         <v-tooltip bottom>
           <template v-slot:activator="{ on }">
-            <v-btn class="ml-8" text dark v-on="on">
+            <v-btn
+              class="ml-8"
+              text
+              dark
+              v-on="on"
+              @click="() => copyToClipboard('my.email@gmail.com')"
+            >
               <v-icon>mdi-content-copy</v-icon>
             </v-btn>
           </template>
@@ -33,6 +39,17 @@ export default {
       range.selectNode(event.target)
       window.getSelection().removeAllRanges()
       window.getSelection().addRange(range)
+    },
+    copyToClipboard(str) {
+      const el = document.createElement('textarea')
+      el.value = str
+      el.setAttribute('readonly', '')
+      el.style.position = 'absolute'
+      el.style.left = '-9999px'
+      document.body.appendChild(el)
+      el.select()
+      document.execCommand('copy')
+      document.body.removeChild(el)
     },
   },
 }
