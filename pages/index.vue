@@ -13,19 +13,18 @@
       <v-divider class="my-12" />
       <other-projects />
     </div>
-    <sc-footer />
   </div>
 </template>
 
 <script>
 import financiallyFinanced from '~/components/financially-financed/financially-financed.vue'
-import scFooter from '~/components/sc-footer/sc-footer.vue'
+
 import otherProjects from '~/components/other-projects/other-projects.vue'
 
 export default {
   components: {
     financiallyFinanced,
-    scFooter,
+
     otherProjects,
   },
 }
