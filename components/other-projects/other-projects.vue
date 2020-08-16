@@ -4,7 +4,9 @@
     <v-timeline class="my-12" dense>
       <v-timeline-item color="blue" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
-          <div class="blue" style="height: 225px;"></div>
+          <v-img height="auto" src="projects\Curiocity\survey-says.svg" />
+          <!-- <div class="blue" style="height: 225px;"></div> -->
+
           <v-card-title class="headline font-weight-light mb-4 blue--text"
             >Survey Says</v-card-title
           >
@@ -27,7 +29,8 @@
       <v-timeline-item color="red" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
           <!-- <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" /> -->
-          <div class="red" style="height: 225px;"></div>
+          <v-img height="auto" src="projects\Hangman\hangman.svg" />
+          <!-- <div class="red" style="height: 225px;"></div> -->
           <v-card-title class="headline font-weight-light mb-4 red--text"
             >Hangman</v-card-title
           >
@@ -47,11 +50,10 @@
 
       <v-timeline-item color="green" small right>
         <v-card class="mx-auto" elevation="10">
-          <!-- <v-img
+          <v-img
             height="auto"
-            src="projects/NutritionCheckpoint/4-30-18/SearchFoods.PNG"
-          /> -->
-          <div class="green" style="height: 225px;"></div>
+            src="projects\NutritionCheckpoint\nutrition-checkpoint.svg"
+          />
           <v-card-title class="headline font-weight-light mb-4 green--text"
             >Nutrition Checkpoint</v-card-title
           >
