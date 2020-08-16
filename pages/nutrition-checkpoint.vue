@@ -1,8 +1,5 @@
 <template>
-  <div class="sc-container mx-auto px-4">
-    <v-btn class="ma-4 sc-back" fab text to="/">
-      <v-icon dark large>mdi-arrow-left</v-icon>
-    </v-btn>
+  <div>
     <div class="text-h1 my-8">Nutrition Checkpoint</div>
     <div class="subtitle-1 text--secondary my-4">
       May 2017 - Aug 2017
@@ -19,5 +16,9 @@
     />
   </div>
 </template>
-
+<script>
+export default {
+  layout: 'project',
+}
+</script>
 <style lang="scss"></style>

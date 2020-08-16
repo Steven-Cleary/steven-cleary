@@ -1,8 +1,5 @@
 <template>
-  <div class="sc-container mx-auto px-4">
-    <v-btn class="ma-4 sc-back" fab text to="/">
-      <v-icon dark large>mdi-arrow-left</v-icon>
-    </v-btn>
+  <div>
     <div class="text-h1 my-8">Financially Financed</div>
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
@@ -44,7 +41,11 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  layout: 'project',
+}
+</script>
 <style lang="scss">
 .sc-back {
   position: fixed;
