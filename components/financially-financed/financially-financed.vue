@@ -48,7 +48,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div class="ml-4" v-on="on">
-            <v-btn outlined color="primary">
+            <v-btn outlined color="primary" to="financially-financed">
               <v-icon left>mdi-information-outline</v-icon>Learn more
             </v-btn>
           </div>
