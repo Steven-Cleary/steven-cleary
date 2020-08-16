@@ -5,8 +5,6 @@
       <v-timeline-item color="blue" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
           <v-img height="auto" src="projects\Curiocity\survey-says.svg" />
-          <!-- <div class="blue" style="height: 225px;"></div> -->
-
           <v-card-title class="headline font-weight-light mb-4 blue--text"
             >Survey Says</v-card-title
           >
@@ -19,7 +17,7 @@
             </div>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="blue" text>
+            <v-btn color="blue" text to="survey-says">
               Read More
             </v-btn>
           </v-card-actions>
@@ -28,9 +26,7 @@
 
       <v-timeline-item color="red" class="mb-12" small right>
         <v-card class="mx-auto" elevation="10">
-          <!-- <v-img height="auto" src="projects/Hangman/4-30-18/Example.PNG" /> -->
           <v-img height="auto" src="projects\Hangman\hangman.svg" />
-          <!-- <div class="red" style="height: 225px;"></div> -->
           <v-card-title class="headline font-weight-light mb-4 red--text"
             >Hangman</v-card-title
           >
@@ -41,7 +37,7 @@
             </div>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="red" text>
+            <v-btn color="red" text to="hangman">
               Read More
             </v-btn>
           </v-card-actions>
@@ -63,11 +59,11 @@
               This is an app that tried to help you optimize your diet, both in
               terms of nutrition and price. You find a food product, add the
               price you bought it for and see which products are giving you the
-              best value
+              best value.
             </div>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="green" text>
+            <v-btn color="green" text to="nutrition-checkpoint">
               Read More
             </v-btn>
           </v-card-actions>
