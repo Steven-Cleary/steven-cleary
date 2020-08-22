@@ -10,7 +10,7 @@
       tweets.
     </div>
     <v-img
-      class="mt-8"
+      class="mt-8 rounded"
       height="auto"
       src="projects\Curiocity\survey-says.svg"
     />
@@ -45,7 +45,7 @@
       <v-img
         v-for="img in images"
         :key="img"
-        class="mt-12 mr-12 elevation-6 pointer"
+        class="mt-12 mr-12 elevation-6 pointer rounded"
         height="auto"
         min-height="414.505"
         width="251"

@@ -15,7 +15,7 @@
       them.
     </div>
     <v-img
-      class="my-8"
+      class="my-8 rounded"
       height="auto"
       src="projects\financially-financed\financially-financed.png"
     />

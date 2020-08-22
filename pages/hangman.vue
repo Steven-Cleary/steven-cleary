@@ -7,7 +7,11 @@
     <div class="body-1 my-4">
       This is a project where users can play hangman with their friends.
     </div>
-    <v-img class="my-8" height="auto" src="projects\Hangman\hangman.svg" />
+    <v-img
+      class="my-8 rounded"
+      height="auto"
+      src="projects\Hangman\hangman.svg"
+    />
   </div>
 </template>
 <script>
