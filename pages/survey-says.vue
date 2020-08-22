@@ -52,21 +52,18 @@
         :src="`projects\\Curiocity\\4-30-18\\${img}`"
       >
         <template v-slot:placeholder>
-          <v-row
-            class="fill-height ma-0 grey lighten-1"
-            style="opacity: 0.5;"
-            align="center"
-            justify="center"
-          >
-            <v-progress-circular indeterminate color="grey lighten-5" />
-          </v-row>
+          <img-placeholder />
         </template>
       </v-img>
     </div>
   </div>
 </template>
 <script>
+import imgPlaceholder from '~/components/img-placeholder.vue'
 export default {
+  components: {
+    imgPlaceholder,
+  },
   data() {
     return {
       images: [
