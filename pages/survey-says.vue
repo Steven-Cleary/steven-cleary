@@ -40,8 +40,6 @@
       response is saved to the database. This means you could go through every
       user and retrieve all of their answers.
     </div>
-    <!-- height="auto"
-            max-width="251" -->
     <div class="text-h5 mt-12">Gallery</div>
     <div class="d-flex flex-wrap justify-start">
       <v-img
@@ -49,9 +47,21 @@
         :key="img"
         class="mt-12 mr-12 elevation-6 pointer"
         height="auto"
-        max-width="251"
+        min-height="414.505"
+        width="251"
         :src="`projects\\Curiocity\\4-30-18\\${img}`"
-      />
+      >
+        <template v-slot:placeholder>
+          <v-row
+            class="fill-height ma-0 grey lighten-1"
+            style="opacity: 0.5;"
+            align="center"
+            justify="center"
+          >
+            <v-progress-circular indeterminate color="grey lighten-5" />
+          </v-row>
+        </template>
+      </v-img>
     </div>
   </div>
 </template>
