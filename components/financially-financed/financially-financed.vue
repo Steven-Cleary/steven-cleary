@@ -2,10 +2,10 @@
   <div>
     <div class="overline">Current Project</div>
     <div class="text-h3 mb-4">Financially Financed</div>
-    <div class="subtitle-1 text--secondary my-4">
+    <div class="subtitle-1 text--secondary my-4 mb-2">
       Jan 2019 - Present
     </div>
-    <div class="body-1 my-4">
+    <div class="body-1 mb-4">
       This site is a hub for
       <span class="text-h6 font-weight-bold"
         >personal finance content and calculators</span
