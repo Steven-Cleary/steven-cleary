@@ -78,6 +78,7 @@ export default {
           angular: '#DD0031',
           bootstrap: '#614092',
           graphjs: '#5D3CF6',
+          docker: '#0997E5',
         },
       },
     },

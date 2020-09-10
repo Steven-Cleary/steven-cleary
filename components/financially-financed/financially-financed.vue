@@ -76,6 +76,10 @@
       <v-icon small left>mdi-vuetify</v-icon>
       Vuetify
     </v-chip>
+    <v-chip class="ml-2" color="docker" outlined small>
+      <v-icon small left>mdi-docker</v-icon>
+      Docker
+    </v-chip>
     <v-chip class="ml-2" color="sass" outlined small>
       <v-icon small left>mdi-sass</v-icon>
       Sass
