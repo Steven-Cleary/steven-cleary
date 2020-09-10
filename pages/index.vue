@@ -11,6 +11,8 @@
       <v-divider class="my-12" />
       <financially-financed />
       <v-divider class="my-12" />
+      <portfolio-site />
+      <v-divider class="my-12" />
       <other-projects />
     </div>
   </div>
@@ -18,13 +20,14 @@
 
 <script>
 import financiallyFinanced from '~/components/financially-financed/financially-financed.vue'
+import portfolioSite from '~/components/portfolio-site/portfolio-site.vue'
 
 import otherProjects from '~/components/other-projects/other-projects.vue'
 
 export default {
   components: {
     financiallyFinanced,
-
+    portfolioSite,
     otherProjects,
   },
 }
