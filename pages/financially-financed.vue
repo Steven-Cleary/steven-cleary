@@ -4,6 +4,7 @@
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
+
     <div class="body-1 my-4">
       I enjoy personal finance. Specifically I like to create different
       scenarios and see how things play out. For example how much money would I
@@ -25,7 +26,6 @@
       content related to personal finance. But if you are reading this you are
       probably more concerned with the tech that this site was built with.
     </div>
-
     <div class="text-h3 my-4">Benefits</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">Custom Component Library</div>
@@ -56,7 +56,8 @@
           Components"</span
         >
         - Vuetify Landing Page. This allows us to create great user experiences
-        with very little effort.
+        without having to recreate many of the basic web components used across
+        the web.
       </div>
     </div>
     <div class="body-1 my-4 mt-8">
