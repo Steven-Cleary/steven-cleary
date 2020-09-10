@@ -26,7 +26,7 @@
         <template v-slot:activator="{ on }">
           <div v-on="on">
             <v-btn
-              depressed
+              outlined
               color="primary"
               @click="() => redirect('https://financiallyfinanced.com/')"
             >
