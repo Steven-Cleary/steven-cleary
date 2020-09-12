@@ -6,7 +6,8 @@
       Jan 2019 - Present
     </div>
     <div class="body-1 mb-4">
-      This site is a hub for
+      Financially Financed is my main project, and will be my main project for a
+      while. This site is a collection of
       <span class="text-h6 font-weight-bold"
         >personal finance content and calculators</span
       >. After getting my first job, I started to have a bunch of questions
