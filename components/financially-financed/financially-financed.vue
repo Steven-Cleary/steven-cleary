@@ -24,37 +24,38 @@
     <div class="d-flex mt-12">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div v-on="on">
-            <v-btn
-              outlined
-              color="primary"
-              @click="() => redirect('https://financiallyfinanced.com/')"
-            >
-              <v-icon left>mdi-launch</v-icon>View
-            </v-btn>
-          </div>
+          <v-btn
+            outlined
+            color="primary"
+            v-on="on"
+            @click="() => redirect('https://financiallyfinanced.com/')"
+          >
+            <v-icon left>mdi-launch</v-icon>View
+          </v-btn>
         </template>
         <span>View live site</span>
       </v-tooltip>
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div class="ml-4" v-on="on">
-            <v-btn outlined disabled color="primary">
-              <v-icon left>mdi-github</v-icon>Code
-            </v-btn>
-          </div>
+          <v-btn class="ml-4" outlined disabled color="primary" v-on="on">
+            <v-icon left>mdi-github</v-icon>Code
+          </v-btn>
         </template>
         <span>Code in private repo</span>
       </v-tooltip>
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div class="ml-4" v-on="on">
-            <v-btn outlined color="primary" to="financially-financed">
-              <v-icon left>mdi-information-outline</v-icon>Learn more
-            </v-btn>
-          </div>
+          <v-btn
+            class="ml-4"
+            outlined
+            color="primary"
+            to="financially-financed"
+            v-on="on"
+          >
+            <v-icon left>mdi-information-outline</v-icon>Learn more
+          </v-btn>
         </template>
         <span>Images and extra info</span>
       </v-tooltip>

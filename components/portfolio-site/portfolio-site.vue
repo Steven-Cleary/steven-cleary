@@ -13,39 +13,41 @@
     <div class="d-flex mt-12">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div v-on="on">
-            <v-btn outlined color="primary" disabled>
-              <v-icon left>mdi-launch</v-icon>View
-            </v-btn>
-          </div>
+          <v-btn outlined color="primary" disabled v-on="on">
+            <v-icon left>mdi-launch</v-icon>View
+          </v-btn>
         </template>
         <span>Already on the site</span>
       </v-tooltip>
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div class="ml-4" v-on="on">
-            <v-btn
-              outlined
-              color="primary"
-              @click="
-                () => redirect('https://github.com/Steven-Cleary/steven-cleary')
-              "
-            >
-              <v-icon left>mdi-github</v-icon>Code
-            </v-btn>
-          </div>
+          <v-btn
+            class="ml-4"
+            outlined
+            color="primary"
+            v-on="on"
+            @click="
+              () => redirect('https://github.com/Steven-Cleary/steven-cleary')
+            "
+          >
+            <v-icon left>mdi-github</v-icon>Code
+          </v-btn>
         </template>
         <span>Source Code</span>
       </v-tooltip>
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div class="ml-4" v-on="on">
-            <v-btn outlined color="primary" to="portfolio-site">
-              <v-icon left>mdi-information-outline</v-icon>Learn more
-            </v-btn>
-          </div>
+          <v-btn
+            class="ml-4"
+            outlined
+            color="primary"
+            to="portfolio-site"
+            v-on="on"
+          >
+            <v-icon left>mdi-information-outline</v-icon>Learn more
+          </v-btn>
         </template>
         <span>Images and extra info</span>
       </v-tooltip>
