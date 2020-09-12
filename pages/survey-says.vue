@@ -6,8 +6,8 @@
     </div>
     <div class="body-1 my-4">
       This app lets users create surveys and answer surveys that other users
-      have created. The surveys are ranked by a model that was trained on
-      tweets.
+      have created. The surveys are ranked by a model that was trained on tweets
+      that were scraped from twitter.
     </div>
     <v-img
       class="mt-8 rounded"
@@ -18,6 +18,9 @@
       This shows a users flow of seeing a question, clicking on the questions to
       see the possible answers, and after answering the question, seeing the
       results.
+    </div>
+    <div class="body-1 my-4">
+      This app was created during a school project.
     </div>
 
     <div class="text-h5 mt-12">Backend</div>

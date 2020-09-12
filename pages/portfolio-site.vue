@@ -1,37 +1,21 @@
 <template>
   <div>
-    <div class="text-h1 my-8">Financially Financed</div>
+    <div class="text-h1 my-8">Portfolio Site</div>
     <div class="subtitle-1 text--secondary my-4">
-      Jan 2019 - Present
+      Aug 2019 - Present
     </div>
 
     <div class="body-1 my-4">
-      I enjoy personal finance. Specifically I like to create different
-      scenarios and see how things play out. For example how much money would I
-      have if I invested $500 a month for 30 years.
+      Since you don't have access to my main project, financially financed, I
+      made this project open source so you can see my code.
     </div>
-    <div class="body-1 my-4">
-      And I would often use JavaScript to play out these different scenarios.
-      Overtime I started building out interfaces and data visualizations as
-      well.
-    </div>
-    <div class="body-1 my-4">
-      Now at this time I was working two other projects. But I decided that
-      these projects were overly ambitious. And I was looking to create a new
-      project that wasn't overly ambitious. Something that I could get done, and
-      that people would use.
-    </div>
-    <div class="body-1 my-4">
-      So I decided that I want to create a site where I can post calculators and
-      content related to personal finance. But if you are reading this you are
-      probably more concerned with the tech that this site was built with.
-    </div>
+
     <div class="text-h3 my-4">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">Custom Component Library</div>
       <div class="body-1 my-4">
-        We built ourselves a set of custom components to help with making our
-        calculators and content.
+        We built ourselves a rich set of custom components. This makes writing
+        our calculators easy.
       </div>
       <v-divider class="my-10" />
       <div class="text-h5 font-weight-light my-4">Easy Deployments</div>
@@ -61,9 +45,9 @@
       </div>
     </div>
     <div class="body-1 my-4 mt-8">
-      If you have read this far you may want to see the code. If you do, then
-      send me an email. In the footer below I have attached an email where you
-      can reach me.
+      If you have read this far you may want to see the code. So send me an
+      email. In the footer below I have attached an email where you can reach
+      me.
     </div>
   </div>
 </template>
