@@ -16,6 +16,7 @@
           <template v-slot:activator="{ on }">
             <v-btn
               class="ml-8"
+              dense
               text
               dark
               v-on="on"
@@ -25,6 +26,14 @@
             </v-btn>
           </template>
           <span>Copy</span>
+        </v-tooltip>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <v-btn text dark href="mailto:my.email@gmail.com" v-on="on">
+              <v-icon>mdi-email</v-icon>
+            </v-btn>
+          </template>
+          <span>Send email</span>
         </v-tooltip>
       </div>
     </div>
