@@ -28,7 +28,7 @@
             outlined
             color="primary"
             v-on="on"
-            @click="() => redirect('https://financiallyfinanced.com/')"
+            @click="() => utils.redirect('https://financiallyfinanced.com/')"
           >
             <v-icon left>mdi-launch</v-icon>View
           </v-btn>
@@ -69,14 +69,15 @@
 
 <script>
 import technologyChips from '~/components/technology-chips/technology-chips.vue'
+import utils from '~/components/utils/utils.js'
 export default {
   components: {
     technologyChips,
   },
-  methods: {
-    redirect(url) {
-      window.open(url, '_blank')
-    },
+  data() {
+    return {
+      utils,
+    }
   },
 }
 </script>

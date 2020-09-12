@@ -28,7 +28,8 @@
             color="primary"
             v-on="on"
             @click="
-              () => redirect('https://github.com/Steven-Cleary/steven-cleary')
+              () =>
+                utils.redirect('https://github.com/Steven-Cleary/steven-cleary')
             "
           >
             <v-icon left>mdi-github</v-icon>Code
@@ -61,14 +62,15 @@
 
 <script>
 import technologyChips from '~/components/technology-chips/technology-chips.vue'
+import utils from '~/components/utils/utils.js'
 export default {
   components: {
     technologyChips,
   },
-  methods: {
-    redirect(url) {
-      window.open(url, '_blank')
-    },
+  data() {
+    return {
+      utils,
+    }
   },
 }
 </script>
