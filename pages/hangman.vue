@@ -12,11 +12,34 @@
       height="auto"
       src="projects\Hangman\hangman.svg"
     />
+    <div class="text-h5 mt-12">Gallery</div>
+    <v-img
+      v-for="img in images"
+      :key="img"
+      class="rounded my-12 elevation-6"
+      height="auto"
+      :src="`projects\\Hangman\\4-30-18\\${img}`"
+    >
+      <template v-slot:placeholder>
+        <img-placeholder />
+      </template>
+    </v-img>
   </div>
 </template>
 <script>
 export default {
   layout: 'project',
+  data() {
+    return {
+      images: [
+        'Example.PNG',
+        'ExampleExplicit.PNG',
+        'GameInProgress.PNG',
+        'GameLoss.PNG',
+        'GameWin.PNG',
+      ],
+    }
+  },
 }
 </script>
 <style lang="scss"></style>
