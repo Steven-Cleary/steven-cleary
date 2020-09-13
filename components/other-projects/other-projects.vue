@@ -1,109 +1,36 @@
 <template>
   <div>
     <div class="text-h3 my-4">Other projects</div>
-    <v-timeline class="my-12" dense reverse>
+    <v-timeline class="my-12 d-none d-sm-block" dense reverse>
       <v-timeline-item color="blue" class="mb-12" small right>
-        <v-card class="mx-auto" elevation="10">
-          <v-img height="auto" src="projects\Curiocity\survey-says.svg" />
-          <v-card-title
-            class="text-h4 font-weight-light blue--text pa-0 ma-4 mt-6"
-            >Survey Says</v-card-title
-          >
-          <v-card-subtitle class="ma-4 pa-0 mb-2"
-            >Sept 2017 - April 2018</v-card-subtitle
-          >
-          <v-card-text class="text--primary">
-            <div>
-              Create polls, answer polls, and see how others responded.
-            </div>
-          </v-card-text>
-          <v-card-actions class="pa-4 pb-6">
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <div v-on="on">
-                  <v-btn outlined color="blue" to="survey-says">
-                    <v-icon left>mdi-information-outline</v-icon>Learn more
-                  </v-btn>
-                </div>
-              </template>
-              <span>Images and extra info</span>
-            </v-tooltip>
-          </v-card-actions>
-        </v-card>
+        <survey-says />
       </v-timeline-item>
-
       <v-timeline-item color="red" class="mb-12" small right>
-        <v-card class="mx-auto" elevation="10">
-          <v-img height="auto" src="projects\Hangman\hangman.svg" />
-          <v-card-title
-            class="text-h4 font-weight-light red--text pa-0 ma-4 mt-6"
-            >Hangman</v-card-title
-          >
-          <v-card-subtitle class="ma-4 pa-0 mb-2"
-            >Sept 2017 - Oct 2017</v-card-subtitle
-          >
-          <v-card-text class="text--primary">
-            <div>
-              Play hangman with your friends. Get everyone gathered around a tv,
-              pull out their phones and send in words to guess.
-            </div>
-          </v-card-text>
-          <v-card-actions class="pa-4 pb-6">
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <div v-on="on">
-                  <v-btn outlined color="red" to="hangman">
-                    <v-icon left>mdi-information-outline</v-icon>Learn more
-                  </v-btn>
-                </div>
-              </template>
-              <span>Images and extra info</span>
-            </v-tooltip>
-          </v-card-actions>
-        </v-card>
+        <hangman />
       </v-timeline-item>
-
       <v-timeline-item color="green" small right>
-        <v-card class="mx-auto" elevation="10">
-          <v-img
-            height="auto"
-            src="projects\NutritionCheckpoint\nutrition-checkpoint.svg"
-          />
-          <v-card-title
-            class="text-h4 font-weight-light green--text pa-0 ma-4 mt-6"
-            >Nutrition Checkpoint</v-card-title
-          >
-          <v-card-subtitle class="ma-4 pa-0 mb-2"
-            >May 2017 - Aug 2017</v-card-subtitle
-          >
-          <v-card-text class="text--primary">
-            <div>
-              Optimize your diet for both price and nutrition. Grab a recent
-              grocery store reciept, search for what you bought and add the
-              price for what you bought it at. Then use the info to create cost
-              efficient diets.
-            </div>
-          </v-card-text>
-          <v-card-actions class="pa-4 pb-6">
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <div v-on="on">
-                  <v-btn outlined color="green" to="nutrition-checkpoint">
-                    <v-icon left>mdi-information-outline</v-icon>Learn more
-                  </v-btn>
-                </div>
-              </template>
-              <span>Images and extra info</span>
-            </v-tooltip>
-          </v-card-actions>
-        </v-card>
+        <nutrition-checkpoint />
       </v-timeline-item>
     </v-timeline>
+    <div class="d-sm-none">
+      <survey-says class="my-12" />
+      <hangman class="my-12" />
+      <nutrition-checkpoint class="my-12" />
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import surveySays from '~/components/other-projects/projects/survey-says.vue'
+import hangman from '~/components/other-projects/projects/hangman.vue'
+import nutritionCheckpoint from '~/components/other-projects/projects/nutrition-checkpoint.vue'
+export default {
+  components: {
+    surveySays,
+    hangman,
+    nutritionCheckpoint,
+  },
+}
 </script>
 
 <style lang="scss"></style>
