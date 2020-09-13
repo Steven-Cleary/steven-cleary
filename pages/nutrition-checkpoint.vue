@@ -6,11 +6,9 @@
     <div class="subtitle-1 text--secondary my-4">
       May 2017 - Aug 2017
     </div>
-
     <div class="body-1 my-4">
-      Have you ever heard the argument that it costs a lot to be healthy? I've
-      always disagreed with that. But I never actually new if it was true or
-      not. However I wanted to find out.
+      Have you ever heard the argument that it costs a lot to be healthy? I
+      didn't know if it was true or not, but I wanted to find out.
     </div>
     <div class="body-1 my-4">
       So I decided to create an app that would shed some light on how much it
