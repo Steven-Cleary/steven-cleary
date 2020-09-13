@@ -67,7 +67,25 @@
         </a>
         why I still love working on this side project after over a year.
       </li>
+
+      <li>
+        How you can view the
+        <a
+          href="#code"
+          @click="
+            $vuetify.goTo('#code', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+        >
+          code
+        </a>
+        .
+      </li>
     </ul>
+
     <div class="text-h5 mt-12">Other Contributors</div>
     <div class="body-1 my-4">
       Anastasia Huff
@@ -151,7 +169,8 @@
         the web.
       </div>
     </div>
-    <div class="body-1 my-4 mt-8">
+    <div id="code" class="text-h5 mt-12">Where is the code?</div>
+    <div class="body-1 my-4">
       If you have read this far you may want to see the code. If you do, then
       send me an email. In the footer below I have attached an email where you
       can reach me.
