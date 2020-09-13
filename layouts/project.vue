@@ -1,10 +1,31 @@
 <template>
   <v-app class="sc">
-    <v-btn class="ma-4 sc-back" fab text to="/">
-      <v-icon dark large>mdi-arrow-left</v-icon>
-    </v-btn>
-    <nuxt class="sc-container mx-auto px-4" />
-    <sc-footer class="mt-8" />
+    <v-app-bar
+      class="d-md-none"
+      color="blue-grey darken-4"
+      dark
+      app
+      collapse
+      fixed
+      hide-on-scroll
+    >
+      <v-btn class="mx-auto" large text to="/">
+        <v-icon dark>mdi-arrow-left</v-icon>
+      </v-btn>
+    </v-app-bar>
+    <v-main>
+      <v-btn
+        color="blue-grey darken-4"
+        class="ma-4 sc-back d-none d-md-inline-flex"
+        fab
+        text
+        to="/"
+      >
+        <v-icon dark large>mdi-arrow-left</v-icon>
+      </v-btn>
+      <nuxt class="sc-container mx-auto px-4" />
+      <sc-footer class="mt-8" />
+    </v-main>
   </v-app>
 </template>
 
