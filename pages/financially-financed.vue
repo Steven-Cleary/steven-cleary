@@ -68,6 +68,10 @@
         why I still love working on this side project after over a year.
       </li>
     </ul>
+    <div class="text-h5 mt-12">Other Contributors</div>
+    <div class="body-1 my-4">
+      Anastasia Huff
+    </div>
 
     <div id="features" class="text-h3 my-4 mt-12">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
