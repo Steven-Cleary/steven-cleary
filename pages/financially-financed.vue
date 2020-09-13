@@ -26,7 +26,44 @@
       content related to personal finance. But if you are reading this you are
       probably more concerned with the tech that this site was built with.
     </div>
-    <div class="text-h3 my-4">Features</div>
+    <div class="text-h3 my-4 mt-12">Features</div>
+    <div class="blue-grey lighten-5 pa-4 rounded">
+      <div class="text-h5 font-weight-light my-4">
+        k = thousand, m = million, b = billion
+      </div>
+      <div class="body-1 my-4">
+        If you want to enter 10 million, just type in <b>10m</b>. No need to
+        type out 10000000.
+      </div>
+      <v-divider class="my-10" />
+      <div class="text-h5 font-weight-light my-4">Editable Age</div>
+      <div class="body-1 my-4">
+        Add and modify your age to better see how results apply to your personal
+        situation.
+      </div>
+      <v-divider class="my-10" />
+      <div class="text-h5 font-weight-light my-4">Editable AGR</div>
+      <div class="body-1 my-4">
+        If you think your investments will do better then 10% a year or 7%
+        inflation adjusted, you can modify the growth rate.
+      </div>
+      <v-divider class="my-10" />
+      <div class="text-h5 font-weight-light my-4">Yearly Toggle</div>
+      <div class="body-1 my-4">
+        Yearly toggle if you want to see results and inputs in yearly values
+        instead of monthly values.
+      </div>
+      <v-divider class="my-10" />
+      <div class="text-h5 font-weight-light my-4">Large Numbers</div>
+      <div class="body-1 my-4">
+        Have you have ever seen one of those day trading gurus that make
+        ridiculous claims, like getting a 1% return daily? Try out those claims
+        on some of our calculators to see how ridiculous they are. We use Big
+        Int so that we can show very large results.
+      </div>
+    </div>
+
+    <div class="text-h3 my-4 mt-12">Development Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">Custom Component Library</div>
       <div class="body-1 my-4">
@@ -46,6 +83,10 @@
         Side Render) or CSR(Client Side Render) content. This allows us to
         create content that search engines can read but also client side render
         more complex content to improve page load speed and user experience.
+      </div>
+      <div class="body-1 my-4">
+        Everything is server side rendered by default unless we put it in a
+        <b>&lt;client-only&gt;</b> element.
       </div>
       <v-divider class="my-10" />
       <div class="text-h5 font-weight-light my-4">Material UI</div>
