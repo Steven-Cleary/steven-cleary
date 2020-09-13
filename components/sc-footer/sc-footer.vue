@@ -7,22 +7,23 @@
         email me at the address below.
       </div>
       <div
-        class="mt-8 mb-12 py-3 px-6 d-inline-flex rounded primary white--text flex-column flex-sm-row align-start align-sm-center"
+        class="mt-8 mb-12 py-1 py-sm-3 px-6 d-inline-flex rounded blue-grey darken-4 white--text align-center"
       >
-        <div class="text-h5 font-weight-light" @click="selectText">
+        <div class="body-1 text-sm-h5 font-weight-light" @click="selectText">
           my.email@gmail.com
         </div>
-        <div class="mt-4 mt-sm-0">
+        <div class="d-flex flex-column flex-sm-row align-center ml-8 ml-sm-0">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <v-btn
-                class="ml-n5 ml-sm-8"
+                class="ml-sm-8"
                 text
                 dark
+                v-bind="iconSize"
                 href="mailto:my.email@gmail.com"
                 v-on="on"
               >
-                <v-icon>mdi-email</v-icon>
+                <v-icon v-bind="iconSize">mdi-email</v-icon>
               </v-btn>
             </template>
             <span>Send email</span>
@@ -33,10 +34,11 @@
                 dense
                 text
                 dark
+                v-bind="iconSize"
                 v-on="on"
                 @click="() => copyToClipboard('my.email@gmail.com')"
               >
-                <v-icon>mdi-content-copy</v-icon>
+                <v-icon v-bind="iconSize">mdi-content-copy</v-icon>
               </v-btn>
             </template>
             <span>Copy</span>
@@ -49,6 +51,14 @@
 
 <script>
 export default {
+  computed: {
+    iconSize() {
+      if (this.$vuetify.breakpoint.name === 'xs') {
+        return { small: true }
+      }
+      return {}
+    },
+  },
   methods: {
     selectText(event) {
       const range = document.createRange()
