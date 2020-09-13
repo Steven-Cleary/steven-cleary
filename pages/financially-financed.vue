@@ -12,7 +12,7 @@
       content.
     </div>
     <div class="body-1 my-4">
-      And to help you understand wht type of content and calculators they are,
+      And to help you understand what type of content and calculators they are,
       let me walk you through an example.
     </div>
     <div class="body-1 my-4">
