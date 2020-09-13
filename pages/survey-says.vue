@@ -59,13 +59,35 @@
       <div class="text-h5 font-weight-light my-4">NLP for question ranking</div>
       <div class="body-1 my-4">
         All of the questions that show up on your feed are ranked using nlp. You
-        can read how we created the model <a href="/">below</a>.
+        can read how we created the model
+        <a
+          href="#question-ranking"
+          @click="
+            $vuetify.goTo('#question-ranking', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+          >below</a
+        >.
       </div>
       <v-divider class="my-10" />
       <div class="text-h5 font-weight-light my-4">Randomly generated data</div>
       <div class="body-1 my-4">
         The app is filled up with mock data that is generated through nlp.You
-        can read how we created the model <a href="/">below</a>.
+        can read how we created the model
+        <a
+          href="#random-questions"
+          @click="
+            $vuetify.goTo('#random-questions', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+          >below</a
+        >.
       </div>
       <v-divider class="my-10" />
       <div class="text-h5 font-weight-light my-4">Code Smells</div>
@@ -74,7 +96,7 @@
         identify any code smells in order to refactor them.
       </div>
     </div>
-    <div id="question-ranking" class="text-h5 mt-12">Scraping Twitter</div>
+    <div class="text-h5 mt-12">Scraping Twitter</div>
     <div class="body-1 my-4">
       In order to create a question ranking model and generate random data we
       needed some data. So we got our data from twitter using their api's. We
@@ -100,7 +122,7 @@
       of retweets. Lastly the the coefficients corresponding to the unigrams are
       saved. Then we use this model to rank incoming questions.
     </div>
-    <div id="question-ranking" class="text-h5 mt-12">
+    <div id="random-questions" class="text-h5 mt-12">
       Generating Random Questions
     </div>
     <div class="body-1 my-4">
