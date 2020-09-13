@@ -14,7 +14,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div v-on="on">
-            <v-btn outlined color="primary" disabled>
+            <v-btn outlined color="blue-grey darken-4" disabled>
               <v-icon left>mdi-launch</v-icon>View
             </v-btn>
           </div>
@@ -27,7 +27,7 @@
           <v-btn
             class="ml-4"
             outlined
-            color="primary"
+            color="blue-grey darken-4"
             href="https://github.com/Steven-Cleary/steven-cleary"
             target="_blank"
             v-on="on"
@@ -43,7 +43,7 @@
           <v-btn
             class="ml-4"
             outlined
-            color="primary"
+            color="blue-grey darken-4"
             to="portfolio-site"
             v-on="on"
           >

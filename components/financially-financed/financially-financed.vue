@@ -27,7 +27,7 @@
         <template v-slot:activator="{ on }">
           <v-btn
             outlined
-            color="primary"
+            color="blue-grey darken-4"
             href="https://financiallyfinanced.com/"
             target="_blank"
             v-on="on"
@@ -41,7 +41,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div class="ml-4" v-on="on">
-            <v-btn outlined disabled color="primary">
+            <v-btn outlined disabled color="blue-grey darken-4">
               <v-icon left>mdi-github</v-icon>Code
             </v-btn>
           </div>
@@ -54,7 +54,7 @@
           <v-btn
             class="ml-4"
             outlined
-            color="primary"
+            color="blue-grey darken-4"
             to="financially-financed"
             v-on="on"
           >
