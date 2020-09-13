@@ -6,36 +6,78 @@
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
+    <div class="body-1 my-4">
+      This has been my main project for a while, and one that I have put the
+      most effort into. It is a collection of personal finance calculators and
+      content.
+    </div>
+    <div class="body-1 my-4">
+      And to help you understand wht type of content and calculators they are,
+      let me walk you through an example.
+    </div>
+    <div class="body-1 my-4">
+      Lets say over the next 15 years you want to save roughly $100k.
+    </div>
+    <div class="body-1 my-4">
+      How much would you have to save every month?
+    </div>
+    <div class="body-1 my-4">
+      Click the link below and it will open a new tab with a calculator that can
+      answer that question. Type in
+      <span class="text-decoration-underline">100k</span> as the target value
+      and <span class="text-decoration-underline">15</span> for the years of
+      investment.
+    </div>
+    <div class="body-1 my-4">
+      <a href="https://financiallyfinanced.com/posts/ci-goal" target="_blank">
+        Compound interest goal calculator
+      </a>
+    </div>
+    <div class="body-1 my-4 mb-2">
+      Down below this I have included:
+    </div>
+    <ul>
+      <li>
+        <a
+          href="#features"
+          @click="
+            $vuetify.goTo('#features', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+        >
+          5 useful features
+        </a>
+        that you can find in some/all of the calculators.
+      </li>
+      <li>
+        <a
+          href="#development-benefits"
+          @click="
+            $vuetify.goTo('#development-benefits', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+        >
+          4 reasons
+        </a>
+        why I still love working on this side project after over a year.
+      </li>
+    </ul>
 
-    <div class="body-1 my-4">
-      I enjoy personal finance. Specifically I like to create different
-      scenarios and see how things play out. For example how much money would I
-      have if I invested $500 a month for 30 years.
-    </div>
-    <div class="body-1 my-4">
-      And I would often use JavaScript to play out these different scenarios.
-      Overtime I started building out interfaces and data visualizations as
-      well.
-    </div>
-    <div class="body-1 my-4">
-      Now at this time I was working two other projects. But I decided that
-      these projects were overly ambitious. And I was looking to create a new
-      project that wasn't overly ambitious. Something that I could get done, and
-      that people would use.
-    </div>
-    <div class="body-1 my-4">
-      So I decided that I want to create a site where I can post calculators and
-      content related to personal finance. But if you are reading this you are
-      probably more concerned with the tech that this site was built with.
-    </div>
-    <div class="text-h3 my-4 mt-12">Features</div>
+    <div id="features" class="text-h3 my-4 mt-12">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">
         k = thousand, m = million, b = billion
       </div>
       <div class="body-1 my-4">
-        If you want to enter 10 million, just type in <b>10m</b>. No need to
-        type out 10000000.
+        If you want to enter 10 million, just type in
+        <span class="text-decoration-underline">10m</span>. No need to type out
+        10000000.
       </div>
       <v-divider class="my-10" />
       <div class="text-h5 font-weight-light my-4">Editable Age</div>
@@ -65,7 +107,9 @@
       </div>
     </div>
 
-    <div class="text-h3 my-4 mt-12">Development Features</div>
+    <div id="development-benefits" class="text-h3 my-4 mt-12">
+      Development Benefits
+    </div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">Custom Component Library</div>
       <div class="body-1 my-4">
