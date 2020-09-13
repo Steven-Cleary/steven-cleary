@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="text-h3 my-4">Other projects</div>
     <v-timeline class="my-12 d-none d-sm-block" dense reverse>
       <v-timeline-item color="blue" class="mb-12" small right>
         <survey-says />

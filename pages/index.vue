@@ -13,6 +13,7 @@
       <v-divider class="my-12" />
       <portfolio-site />
       <v-divider class="my-12" />
+      <div class="text-h3 pt-6">Other projects</div>
       <other-projects />
     </div>
   </div>
