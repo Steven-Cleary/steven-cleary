@@ -10,6 +10,13 @@
       Since you don't have access to my main project, financially financed, I
       made this project open source so you can see my code.
     </div>
+    <div class="body-1 my-4">
+      Click
+      <a href="https://github.com/Steven-Cleary/steven-cleary" target="_blank">
+        here</a
+      >
+      to open the project in github on a new tab.
+    </div>
   </div>
 </template>
 <script>
