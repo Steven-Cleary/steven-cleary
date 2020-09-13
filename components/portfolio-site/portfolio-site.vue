@@ -13,9 +13,11 @@
     <div class="d-flex mt-12">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <v-btn outlined color="primary" disabled v-on="on">
-            <v-icon left>mdi-launch</v-icon>View
-          </v-btn>
+          <div v-on="on">
+            <v-btn outlined color="primary" disabled>
+              <v-icon left>mdi-launch</v-icon>View
+            </v-btn>
+          </div>
         </template>
         <span>Already on the site</span>
       </v-tooltip>

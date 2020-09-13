@@ -40,9 +40,11 @@
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <v-btn class="ml-4" outlined disabled color="primary" v-on="on">
-            <v-icon left>mdi-github</v-icon>Code
-          </v-btn>
+          <div class="ml-4" v-on="on">
+            <v-btn outlined disabled color="primary">
+              <v-icon left>mdi-github</v-icon>Code
+            </v-btn>
+          </div>
         </template>
         <span>Code in private repo</span>
       </v-tooltip>
