@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-h1 my-8">Financially Financed</div>
+    <!-- <div class="text-h1 my-8">Financially Financed</div> -->
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
