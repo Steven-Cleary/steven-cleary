@@ -6,8 +6,10 @@
       Aug 2019 - Present
     </div>
     <div class="body-1 mb-4">
-      This site is a place for you to see my personal projects. If you would
-      like to see the code for this website click the button below.
+      This is a site to show off my personal projects. The source code for my
+      main project, Financially Financed, is not open source. So I included this
+      website so that you can get a sense of my coding style, without having to
+      send me an email.
     </div>
 
     <div class="d-flex mt-12">
