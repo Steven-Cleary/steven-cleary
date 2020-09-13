@@ -14,9 +14,7 @@
           >
           <v-card-text class="text--primary">
             <div>
-              This app lets users create surveys and answer surveys that other
-              users have created. The surveys are ranked by a model that was
-              trained on tweets.
+              Create polls, answer polls, and see how others responded.
             </div>
           </v-card-text>
           <v-card-actions class="pa-4 pb-6">
@@ -46,7 +44,8 @@
           >
           <v-card-text class="text--primary">
             <div>
-              This is a project where users can play hangman with their friends.
+              Play hangman with your friends. Get everyone gathered around a tv,
+              pull out their phones and send in words to guess.
             </div>
           </v-card-text>
           <v-card-actions class="pa-4 pb-6">
@@ -79,10 +78,10 @@
           >
           <v-card-text class="text--primary">
             <div>
-              This is an app that tried to help you optimize your diet, both in
-              terms of nutrition and price. You find a food product, add the
-              price you bought it for and see which products are giving you the
-              best value.
+              Optimize your diet for both price and nutrition. Grab a recent
+              grocery store reciept, search for what you bought and add the
+              price for what you bought it at. Then use the info to create cost
+              efficient diets.
             </div>
           </v-card-text>
           <v-card-actions class="pa-4 pb-6">
