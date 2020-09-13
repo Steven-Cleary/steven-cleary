@@ -182,10 +182,4 @@ export default {
   layout: 'project',
 }
 </script>
-<style lang="scss">
-.sc-back {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-</style>
+<style lang="scss"></style>

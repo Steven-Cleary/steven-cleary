@@ -22,9 +22,7 @@
 <script>
 import financiallyFinanced from '~/components/financially-financed/financially-financed.vue'
 import portfolioSite from '~/components/portfolio-site/portfolio-site.vue'
-
 import otherProjects from '~/components/other-projects/other-projects.vue'
-
 export default {
   components: {
     financiallyFinanced,
