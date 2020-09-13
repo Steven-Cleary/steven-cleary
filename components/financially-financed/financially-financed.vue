@@ -19,7 +19,7 @@
       src="projects\financially-financed\financially-financed.png"
     />
 
-    <div class="d-flex mt-12">
+    <div class="d-flex mt-12 flex-column flex-sm-row">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn
@@ -37,19 +37,23 @@
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <div class="ml-4" v-on="on">
-            <v-btn outlined disabled color="blue-grey darken-4">
-              <v-icon left>mdi-github</v-icon>Code
-            </v-btn>
-          </div>
+          <v-btn
+            class="ml-sm-4 my-4 my-sm-0"
+            outlined
+            color="blue-grey darken-4"
+            to="financially-financed#code"
+            v-on="on"
+          >
+            <v-icon left>mdi-github</v-icon>Code
+          </v-btn>
         </template>
-        <span>Code in private repo</span>
+        <span>Access the code</span>
       </v-tooltip>
 
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn
-            class="ml-4"
+            class="ml-sm-4"
             outlined
             color="blue-grey darken-4"
             to="financially-financed"
