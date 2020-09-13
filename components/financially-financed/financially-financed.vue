@@ -8,7 +8,7 @@
     <div class="body-1 mb-4">
       Financially Financed is my main project, and will be my main project for a
       while. This site is a collection of
-      <span class="text-h6 font-weight-bold"
+      <span class="text-h6 font-weight-bold" style="line-height: 1.5rem;"
         >personal finance content and calculators</span
       >. After getting my first job, I started to have a bunch of questions
       related to personal finance. I began to create calculators and data
