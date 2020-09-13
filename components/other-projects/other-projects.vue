@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-timeline class="my-12 d-none d-sm-block" dense reverse>
+    <v-timeline class="my-12 ml-sm-n8 d-none d-sm-block" dense>
       <v-timeline-item color="blue" class="mb-12" small right>
         <survey-says />
       </v-timeline-item>
