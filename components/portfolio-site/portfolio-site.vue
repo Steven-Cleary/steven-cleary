@@ -12,11 +12,16 @@
       send me an email.
     </div>
 
-    <div class="d-flex mt-12">
+    <div class="d-flex mt-12 flex-column flex-sm-row">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <div v-on="on">
-            <v-btn outlined color="blue-grey darken-4" disabled>
+            <v-btn
+              class="width-100"
+              outlined
+              color="blue-grey darken-4"
+              disabled
+            >
               <v-icon left>mdi-launch</v-icon>View
             </v-btn>
           </div>
@@ -27,7 +32,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn
-            class="ml-4"
+            class="ml-sm-4 my-4 my-sm-0"
             outlined
             color="blue-grey darken-4"
             href="https://github.com/Steven-Cleary/steven-cleary"
@@ -43,7 +48,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn
-            class="ml-4"
+            class="ml-sm-4"
             outlined
             color="blue-grey darken-4"
             to="portfolio-site"
