@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="text-h1 my-8">Nutrition Checkpoint</div>
+    <div class="text-h2 text-sm-h1 mb-8 mt-6 mt-md-n4">
+      Nutrition Checkpoint
+    </div>
     <div class="subtitle-1 text--secondary my-4">
       May 2017 - Aug 2017
     </div>

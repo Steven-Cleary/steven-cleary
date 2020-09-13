@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="text-h1 my-8">Portfolio Site</div>
+    <div class="text-h2 text-sm-h1 mb-8 mt-6 mt-md-n4">
+      Portfolio Site
+    </div>
     <div class="subtitle-1 text--secondary my-4">
       Aug 2019 - Present
     </div>

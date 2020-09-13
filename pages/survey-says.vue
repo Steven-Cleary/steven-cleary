@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="text-h1 mt-12 mb-4">Survey Says</div>
+    <div class="text-h2 text-sm-h1 mb-8 mt-6 mt-md-n4">
+      Survey Says
+    </div>
     <div class="subtitle-1 text--secondary my-4">
       Sept 2017 - April 2018
     </div>
