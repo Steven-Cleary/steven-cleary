@@ -49,6 +49,12 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-178387883-1',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
