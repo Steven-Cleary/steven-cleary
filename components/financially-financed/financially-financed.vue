@@ -10,8 +10,13 @@
       while. This site is a collection of
       <span class="text-h6 font-weight-bold" style="line-height: 1.5rem;">
         personal finance content and calculators</span
-      >. Click the view button below if you would like to see the live site. Or
-      click the learn more button below to get an overview of the project.
+      >.
+    </div>
+    <div class="body-1 mb-4">
+      Click the view button below if you would like to see the live site, right
+      on the home page I have included a carousel with all of the calculators
+      for you to mess around with. Or click the learn more button below to get
+      an overview of the project.
     </div>
     <v-img
       class="my-8 rounded"
