@@ -14,7 +14,7 @@
     <v-card-text class="text--primary">
       <div>
         Optimize your diet for both price and nutrition. Grab a recent grocery
-        store reciept, search for what you bought and add the price for what you
+        store receipt, search for what you bought and add the price for what you
         bought it at. Then use the info to create cost efficient diets.
       </div>
     </v-card-text>
