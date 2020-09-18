@@ -18,6 +18,7 @@
         bought it at. Then use the info to create cost efficient diets.
       </div>
     </v-card-text>
+    <technology-chips class="pl-4" :technologies="['angular']" />
     <v-card-actions class="pa-4 pb-6">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">

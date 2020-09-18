@@ -16,6 +16,7 @@
         playing hangman on the tv while players send in words from their phones.
       </div>
     </v-card-text>
+    <technology-chips class="pl-4" :technologies="['angular']" />
     <v-card-actions class="pa-4 pb-6">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
