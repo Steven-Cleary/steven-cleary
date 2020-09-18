@@ -205,6 +205,13 @@ export default {
   head() {
     return {
       title: 'Steven Cleary - Survey Says',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Create polls, answer polls, and see how others responded.',
+        },
+      ],
     }
   },
   layout: 'project',

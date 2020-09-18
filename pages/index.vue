@@ -29,6 +29,19 @@ export default {
     portfolioSite,
     otherProjects,
   },
+  head() {
+    return {
+      title: 'Steven Cleary',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'I am a software engineer and this site is a place to show off my personal projects.',
+        },
+      ],
+    }
+  },
 }
 </script>
 

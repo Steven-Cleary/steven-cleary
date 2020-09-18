@@ -34,6 +34,14 @@ export default {
   head() {
     return {
       title: 'Steven Cleary - Portfolio Site',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'This is a site to show off my personal projects. The source code for my main project, Financially Financed, is not open source. So I included this website so that you can get a sense of my coding style, without having to send me an email.',
+        },
+      ],
     }
   },
   layout: 'project',

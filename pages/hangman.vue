@@ -74,6 +74,14 @@ export default {
   head() {
     return {
       title: 'Steven Cleary - Hangman',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Gather your friends around a tv, log into your account, then take turns playing hangman on the tv while players send in words from their phones.',
+        },
+      ],
     }
   },
   layout: 'project',

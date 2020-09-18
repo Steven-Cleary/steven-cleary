@@ -86,6 +86,14 @@ export default {
   head() {
     return {
       title: 'Steven Cleary - Nutrition Checkpoint',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Optimize your diet for both price and nutrition. Grab a recent grocery store receipt, search for what you bought and add the price for what you bought it at. Then use the info to create cost efficient diets.',
+        },
+      ],
     }
   },
   layout: 'project',

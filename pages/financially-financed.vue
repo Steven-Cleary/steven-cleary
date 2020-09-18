@@ -218,6 +218,14 @@ export default {
   head() {
     return {
       title: 'Steven Cleary - Financially Financed',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'This site is a collection of personal finance content and calculators.',
+        },
+      ],
     }
   },
   layout: 'project',
