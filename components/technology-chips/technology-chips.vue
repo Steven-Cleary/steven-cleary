@@ -9,6 +9,15 @@
       <v-icon small left>mdi-language-javascript</v-icon>
       JS
     </v-chip>
+    <v-chip
+      v-if="technologies.includes('python')"
+      color="python"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-language-python</v-icon>
+      Python
+    </v-chip>
     <v-chip v-if="technologies.includes('nuxt')" color="nuxt" outlined small>
       <v-icon small left>mdi-nuxt</v-icon>
       Nuxt
@@ -16,6 +25,15 @@
     <v-chip v-if="technologies.includes('vue')" color="vue" outlined small>
       <v-icon small left>mdi-vuejs</v-icon>
       Vue
+    </v-chip>
+    <v-chip
+      v-if="technologies.includes('angular')"
+      color="angular"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-angularjs</v-icon>
+      Angular
     </v-chip>
     <v-chip
       v-if="technologies.includes('vuetify')"
@@ -51,6 +69,23 @@
     <v-chip v-if="technologies.includes('node')" color="node" outlined small>
       <v-icon small left>mdi-nodejs</v-icon>
       Node
+    </v-chip>
+    <v-chip v-if="technologies.includes('ionic')" color="ionic" outlined small>
+      <v-icon small left>mdi-atom-variant</v-icon>
+      Ionic
+    </v-chip>
+    <v-chip
+      v-if="technologies.includes('django')"
+      color="django"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-alpha-d-box</v-icon>
+      Django
+    </v-chip>
+    <v-chip v-if="technologies.includes('chart')" color="chart" outlined small>
+      <v-icon small left>mdi-poll</v-icon>
+      Chart JS
     </v-chip>
   </v-chip-group>
 </template>

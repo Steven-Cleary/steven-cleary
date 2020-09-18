@@ -80,6 +80,7 @@ export default {
           graphjs: '#5D3CF6',
           docker: '#0997E5',
           kubernetes: '#316CE6',
+          python: '#1E415E',
         },
       },
     },
