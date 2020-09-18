@@ -6,6 +6,20 @@
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn
+          outlined
+          color="blue-grey darken-4"
+          href="https://financiallyfinanced.com/"
+          target="_blank"
+          v-on="on"
+        >
+          <v-icon left>mdi-launch</v-icon>View
+        </v-btn>
+      </template>
+      <span>View live site</span>
+    </v-tooltip>
     <div class="body-1 my-4">
       This has been my main project for a while, and one that I have put the
       most effort into. It is a collection of personal finance calculators and
