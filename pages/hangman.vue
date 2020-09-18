@@ -4,7 +4,7 @@
       Hangman
     </div>
     <div class="subtitle-1 text--secondary my-4">
-      Jan 2019 - Present
+      Nov 2017 - Feb 2018
     </div>
 
     <div class="body-1 my-4">
