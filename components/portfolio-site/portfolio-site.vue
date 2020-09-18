@@ -60,7 +60,7 @@
         <span>Overview of project</span>
       </v-tooltip>
     </div>
-    <div class="text-h6 my-4 mb-2 mt-12">Technologies</div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
     <technology-chips
       :technologies="['js', 'nuxt', 'vue', 'vuetify', 'docker', 'sass', 'node']"
     />
