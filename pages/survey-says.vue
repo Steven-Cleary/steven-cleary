@@ -6,6 +6,19 @@
     <div class="subtitle-1 text--secondary my-4">
       Sept 2017 - April 2018
     </div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <technology-chips
+      :technologies="[
+        'js',
+        'nuxt',
+        'vue',
+        'vuetify',
+        'docker',
+        'sass',
+        'node',
+        'kubernetes',
+      ]"
+    />
     <div class="body-1 my-4">
       Have you ever answered a poll on twitter? Where you saw a question,
       answered the question and then got to see the results?
@@ -158,9 +171,11 @@
 </template>
 <script>
 import imgPlaceholder from '~/components/img-placeholder.vue'
+import technologyChips from '~/components/technology-chips/technology-chips.vue'
 export default {
   components: {
     imgPlaceholder,
+    technologyChips,
   },
   data() {
     return {

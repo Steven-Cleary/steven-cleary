@@ -6,6 +6,19 @@
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <technology-chips
+      :technologies="[
+        'js',
+        'nuxt',
+        'vue',
+        'vuetify',
+        'docker',
+        'sass',
+        'node',
+        'kubernetes',
+      ]"
+    />
     <div class="body-1 my-4">
       During a web programming class we were given an assignment to make a
       simple game. So a friend and I decided to create an app that would let you
@@ -46,7 +59,12 @@
   </div>
 </template>
 <script>
+import technologyChips from '~/components/technology-chips/technology-chips.vue'
+
 export default {
+  components: {
+    technologyChips,
+  },
   layout: 'project',
   data() {
     return {

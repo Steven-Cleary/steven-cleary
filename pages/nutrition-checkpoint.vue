@@ -6,6 +6,19 @@
     <div class="subtitle-1 text--secondary my-4">
       May 2017 - Aug 2017
     </div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <technology-chips
+      :technologies="[
+        'js',
+        'nuxt',
+        'vue',
+        'vuetify',
+        'docker',
+        'sass',
+        'node',
+        'kubernetes',
+      ]"
+    />
     <div class="body-1 my-4">
       Have you ever heard the argument that it costs a lot to be healthy? I
       didn't know if it was true or not, but I wanted to find out.
@@ -59,7 +72,12 @@
   </div>
 </template>
 <script>
+import technologyChips from '~/components/technology-chips/technology-chips.vue'
+
 export default {
+  components: {
+    technologyChips,
+  },
   layout: 'project',
   data() {
     return {
