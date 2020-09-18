@@ -2,7 +2,7 @@
   <v-card class="mx-auto" elevation="10">
     <v-img
       height="auto"
-      src="projects\NutritionCheckpoint\nutrition-checkpoint.svg"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600462422/portfolio/nutrition-checkpoint_wsqz8k.svg"
     />
     <v-card-title
       class="text-h5 text-md-h4 font-weight-light green--text pa-0 ma-4 mt-6"

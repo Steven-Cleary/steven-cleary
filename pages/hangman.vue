@@ -26,7 +26,7 @@
     <v-img
       class="mt-8 rounded"
       height="auto"
-      src="projects\Hangman\hangman.svg"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600462452/portfolio/hangman_yoyer2.svg"
     />
     <div class="text-caption mt-2">
       This shows the home screen as well as the game screen where you are trying

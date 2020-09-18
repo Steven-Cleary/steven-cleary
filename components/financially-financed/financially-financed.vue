@@ -21,7 +21,7 @@
     <v-img
       class="my-8 rounded"
       height="auto"
-      src="projects\financially-financed\financially-financed.png"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600462472/portfolio/financially-financed_iluxq5.png"
     >
       <template v-slot:placeholder>
         <img-placeholder />

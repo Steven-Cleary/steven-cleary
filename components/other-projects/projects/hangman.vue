@@ -1,6 +1,9 @@
 <template>
   <v-card class="mx-auto" elevation="10">
-    <v-img height="auto" src="projects\Hangman\hangman.svg" />
+    <v-img
+      height="auto"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600462452/portfolio/hangman_yoyer2.svg"
+    />
     <v-card-title
       class="text-h5 text-md-h4 font-weight-light red--text pa-0 ma-4 mt-6"
       >Hangman</v-card-title

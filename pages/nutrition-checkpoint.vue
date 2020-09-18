@@ -32,7 +32,7 @@
     <v-img
       class="mt-8 rounded"
       height="auto"
-      src="projects\NutritionCheckpoint\nutrition-checkpoint.svg"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600462422/portfolio/nutrition-checkpoint_wsqz8k.svg"
     />
     <div class="text-caption mt-2">
       This shows the screens where you can search for foods to save with a price

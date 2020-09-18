@@ -1,6 +1,9 @@
 <template>
   <v-card class="mx-auto" elevation="10">
-    <v-img height="auto" src="projects\Curiocity\survey-says.svg" />
+    <v-img
+      height="auto"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600463005/portfolio/survey-says_o8rvtb.svg"
+    />
     <v-card-title
       class="text-h5 text-md-h4 font-weight-light blue--text pa-0 ma-4 mt-6"
       >Survey Says</v-card-title

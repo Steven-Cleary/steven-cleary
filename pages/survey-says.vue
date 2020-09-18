@@ -32,7 +32,7 @@
     <v-img
       class="mt-8 rounded"
       height="auto"
-      src="projects\Curiocity\survey-says.svg"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600463005/portfolio/survey-says_o8rvtb.svg"
     />
     <div class="text-caption mt-2">
       This shows a users flow of seeing a question, clicking on the questions to
