@@ -31,6 +31,11 @@ export default {
   components: {
     technologyChips,
   },
+  head() {
+    return {
+      title: 'Steven Cleary - Portfolio Site',
+    }
+  },
   layout: 'project',
 }
 </script>

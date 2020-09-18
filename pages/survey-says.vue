@@ -202,6 +202,11 @@ export default {
       ],
     }
   },
+  head() {
+    return {
+      title: 'Steven Cleary - Survey Says',
+    }
+  },
   layout: 'project',
 }
 </script>

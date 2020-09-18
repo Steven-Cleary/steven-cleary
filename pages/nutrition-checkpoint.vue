@@ -72,7 +72,6 @@ export default {
     technologyChips,
     imgPlaceholder,
   },
-  layout: 'project',
   data() {
     return {
       images: [
@@ -84,6 +83,12 @@ export default {
       ],
     }
   },
+  head() {
+    return {
+      title: 'Steven Cleary - Nutrition Checkpoint',
+    }
+  },
+  layout: 'project',
 }
 </script>
 <style lang="scss"></style>

@@ -215,6 +215,11 @@ export default {
   components: {
     technologyChips,
   },
+  head() {
+    return {
+      title: 'Steven Cleary - Financially Financed',
+    }
+  },
   layout: 'project',
 }
 </script>
