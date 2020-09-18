@@ -6,19 +6,7 @@
     <div class="subtitle-1 text--secondary my-4">
       Jan 2019 - Present
     </div>
-    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
-    <technology-chips
-      :technologies="[
-        'js',
-        'nuxt',
-        'vue',
-        'vuetify',
-        'docker',
-        'sass',
-        'node',
-        'kubernetes',
-      ]"
-    />
+
     <div class="body-1 my-4">
       During a web programming class we were given an assignment to make a
       simple game. So a friend and I decided to create an app that would let you
@@ -33,6 +21,8 @@
       We would pull the game a large screen and people would send in words from
       their phones for others to guess.
     </div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <technology-chips :technologies="['js', 'angular']" />
     <v-img
       class="my-8 rounded"
       height="auto"

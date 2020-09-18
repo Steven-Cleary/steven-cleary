@@ -8,16 +8,7 @@
     </div>
     <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
     <technology-chips
-      :technologies="[
-        'js',
-        'nuxt',
-        'vue',
-        'vuetify',
-        'docker',
-        'sass',
-        'node',
-        'kubernetes',
-      ]"
+      :technologies="['js', 'python', 'ionic', 'django', 'angular', 'chart']"
     />
     <div class="body-1 my-4">
       Have you ever answered a poll on twitter? Where you saw a question,
