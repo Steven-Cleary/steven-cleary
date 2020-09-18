@@ -79,6 +79,7 @@ export default {
           bootstrap: '#614092',
           graphjs: '#5D3CF6',
           docker: '#0997E5',
+          kubernetes: '#316CE6',
         },
       },
     },

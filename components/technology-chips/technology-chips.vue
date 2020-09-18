@@ -35,6 +35,15 @@
       <v-icon small left>mdi-docker</v-icon>
       Docker
     </v-chip>
+    <v-chip
+      v-if="technologies.includes('kubernetes')"
+      color="kubernetes"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-kubernetes</v-icon>
+      Kubernetes
+    </v-chip>
     <v-chip v-if="technologies.includes('sass')" color="sass" outlined small>
       <v-icon small left>mdi-sass</v-icon>
       Sass
