@@ -9,7 +9,7 @@
       fixed
       hide-on-scroll
     >
-      <v-btn class="mx-auto" large text to="/">
+      <v-btn class="mx-auto" large text @click="$router.back()">
         <v-icon dark>mdi-arrow-left</v-icon>
       </v-btn>
     </v-app-bar>
@@ -19,7 +19,7 @@
         class="ma-4 sc-back d-none d-md-inline-flex"
         fab
         text
-        to="/"
+        @click="$router.back()"
       >
         <v-icon dark large>mdi-arrow-left</v-icon>
       </v-btn>
