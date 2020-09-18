@@ -24,10 +24,14 @@
     <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
     <technology-chips :technologies="['js', 'angular']" />
     <v-img
-      class="my-8 rounded"
+      class="mt-8 rounded"
       height="auto"
       src="projects\Hangman\hangman.svg"
     />
+    <div class="text-caption mt-2">
+      This shows the home screen as well as the game screen where you are trying
+      to guess the word sent to you by a friend.
+    </div>
     <div class="text-h5 mt-12">Description</div>
     <div class="body-1 my-4">
       This app allows you to play hangman with your friends. You can send words

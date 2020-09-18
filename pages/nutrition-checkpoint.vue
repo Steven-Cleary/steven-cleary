@@ -30,10 +30,14 @@
     <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
     <technology-chips :technologies="['js', 'angular']" />
     <v-img
-      class="my-8 rounded"
+      class="mt-8 rounded"
       height="auto"
       src="projects\NutritionCheckpoint\nutrition-checkpoint.svg"
     />
+    <div class="text-caption mt-2">
+      This shows the screens where you can search for foods to save with a price
+      and where you can create a new diet.
+    </div>
     <div class="text-h5 mt-12">Description</div>
     <div class="body-1 my-4">
       After logging into this app you are given a set of daily intakes which you
