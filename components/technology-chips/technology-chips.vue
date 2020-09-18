@@ -1,5 +1,9 @@
 <template>
   <v-chip-group column>
+    <v-chip v-if="technologies.includes('ts')" color="ts" outlined small>
+      <v-icon small left>mdi-language-typescript</v-icon>
+      TS
+    </v-chip>
     <v-chip
       v-if="technologies.includes('js')"
       color="yellow darken-2"
@@ -82,6 +86,24 @@
     >
       <v-icon small left>mdi-alpha-d-box</v-icon>
       Django
+    </v-chip>
+    <v-chip
+      v-if="technologies.includes('scikit')"
+      color="scikit"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-chart-bell-curve-cumulative</v-icon>
+      Scikit Learn
+    </v-chip>
+    <v-chip
+      v-if="technologies.includes('nltk')"
+      color="blue-grey darken-4"
+      outlined
+      small
+    >
+      <v-icon small left>mdi-graph</v-icon>
+      NLTK
     </v-chip>
     <v-chip v-if="technologies.includes('chart')" color="chart" outlined small>
       <v-icon small left>mdi-poll</v-icon>

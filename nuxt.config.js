@@ -81,6 +81,8 @@ export default {
           docker: '#0997E5',
           kubernetes: '#316CE6',
           python: '#1E415E',
+          scikit: '#F89939',
+          ts: '#235A97',
         },
       },
     },
