@@ -24,7 +24,7 @@
         <v-icon dark large>mdi-arrow-left</v-icon>
       </v-btn>
       <nuxt class="sc-container mx-auto px-4" />
-      <sc-footer class="mt-8" />
+      <sc-footer class="mt-12" />
     </v-main>
   </v-app>
 </template>

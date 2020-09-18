@@ -22,7 +22,11 @@
       class="my-8 rounded"
       height="auto"
       src="projects\financially-financed\financially-financed.png"
-    />
+    >
+      <template v-slot:placeholder>
+        <img-placeholder />
+      </template>
+    </v-img>
 
     <div class="d-flex mt-12 flex-column flex-sm-row">
       <v-tooltip bottom>
@@ -88,9 +92,11 @@
 
 <script>
 import technologyChips from '~/components/technology-chips/technology-chips.vue'
+import imgPlaceholder from '~/components/img-placeholder.vue'
 export default {
   components: {
     technologyChips,
+    imgPlaceholder,
   },
 }
 </script>

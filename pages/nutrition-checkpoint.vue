@@ -66,10 +66,11 @@
 </template>
 <script>
 import technologyChips from '~/components/technology-chips/technology-chips.vue'
-
+import imgPlaceholder from '~/components/img-placeholder.vue'
 export default {
   components: {
     technologyChips,
+    imgPlaceholder,
   },
   layout: 'project',
   data() {
