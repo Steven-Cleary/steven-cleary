@@ -33,6 +33,10 @@
         Compound interest goal calculator
       </a>
     </div>
+    <div class="body-1 my-4">
+      You'll see that you should save roughly $320 a month if you want to reach
+      $100k in 15 years.
+    </div>
     <div class="body-1 my-4 mb-2">
       Down below this I have included:
     </div>
