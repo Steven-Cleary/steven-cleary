@@ -6,10 +6,7 @@
     <div class="subtitle-1 text--secondary my-4">
       Sept 2017 - April 2018
     </div>
-    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
-    <technology-chips
-      :technologies="['js', 'python', 'ionic', 'django', 'angular', 'chart']"
-    />
+
     <div class="body-1 my-4">
       Have you ever answered a poll on twitter? Where you saw a question,
       answered the question and then got to see the results?
@@ -19,6 +16,19 @@
       to see the results. You can also ask your own questions that others can
       answer.
     </div>
+    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <technology-chips
+      :technologies="[
+        'ts',
+        'python',
+        'ionic',
+        'django',
+        'angular',
+        'chart',
+        'scikit',
+        'nltk',
+      ]"
+    />
     <v-img
       class="mt-8 rounded"
       height="auto"
