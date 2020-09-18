@@ -10,7 +10,7 @@
         class="mt-8 mb-12 py-1 py-sm-3 px-6 d-inline-flex rounded blue-grey darken-4 white--text align-center"
       >
         <div class="body-1 text-sm-h5 font-weight-light" @click="selectText">
-          my.email@gmail.com
+          steven.cleary.dev@gmail.com
         </div>
         <div class="d-flex flex-column flex-sm-row align-center ml-8 ml-sm-0">
           <v-tooltip bottom>
@@ -20,7 +20,7 @@
                 text
                 dark
                 v-bind="iconSize"
-                href="mailto:my.email@gmail.com"
+                href="mailto:steven.cleary.dev@gmail.com"
                 v-on="on"
               >
                 <v-icon v-bind="iconSize">mdi-email</v-icon>
@@ -36,7 +36,7 @@
                 dark
                 v-bind="iconSize"
                 v-on="on"
-                @click="() => copyToClipboard('my.email@gmail.com')"
+                @click="() => copyToClipboard('steven.cleary.dev@gmail.com')"
               >
                 <v-icon v-bind="iconSize">mdi-content-copy</v-icon>
               </v-btn>
