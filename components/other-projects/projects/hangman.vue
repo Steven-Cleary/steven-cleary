@@ -6,7 +6,7 @@
       >Hangman</v-card-title
     >
     <v-card-subtitle class="ma-4 pa-0 mb-2"
-      >Sept 2017 - Oct 2017</v-card-subtitle
+      >Nov 2017 - Feb 2018</v-card-subtitle
     >
     <v-card-text class="text--primary">
       <!-- Get everyone gathered around a tv, pull
