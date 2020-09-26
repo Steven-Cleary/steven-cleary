@@ -12,11 +12,8 @@
       >Nov 2017 - Feb 2018</v-card-subtitle
     >
     <v-card-text class="text--primary">
-      <!-- Get everyone gathered around a tv, pull
-        out their phones and send in words to guess. -->
       <div>
-        Gather your friends around a tv, log into your account, then take turns
-        playing hangman on the tv while players send in words from their phones.
+        Gather your friends around a tv, and play hangman.
       </div>
     </v-card-text>
     <technology-chips class="pl-4" :technologies="['angular']" />

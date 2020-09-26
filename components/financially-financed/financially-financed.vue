@@ -13,10 +13,10 @@
       >.
     </div>
     <div class="body-1 mb-4">
-      Click the view button below if you would like to see the live site, right
-      on the home page I have included a carousel with all of the calculators
-      for you to mess around with. Or click the learn more button below to get
-      an overview of the project.
+      Click the view button below if you would like to see the live site. On the
+      home page I have included a carousel with all of the calculators which you
+      can explore. You can also click the learn more button below to get an
+      overview of the project.
     </div>
     <v-img
       class="my-8 rounded"
