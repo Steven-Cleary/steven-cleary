@@ -85,6 +85,7 @@
         'sass',
         'node',
         'kubernetes',
+        'chart',
       ]"
     />
   </div>

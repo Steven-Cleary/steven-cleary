@@ -66,13 +66,13 @@
       <v-icon small left>mdi-kubernetes</v-icon>
       Kubernetes
     </v-chip>
-    <v-chip v-if="technologies.includes('sass')" color="sass" outlined small>
-      <v-icon small left>mdi-sass</v-icon>
-      Sass
-    </v-chip>
     <v-chip v-if="technologies.includes('node')" color="node" outlined small>
       <v-icon small left>mdi-nodejs</v-icon>
       Node
+    </v-chip>
+    <v-chip v-if="technologies.includes('sass')" color="sass" outlined small>
+      <v-icon small left>mdi-sass</v-icon>
+      Sass
     </v-chip>
     <v-chip v-if="technologies.includes('ionic')" color="ionic" outlined small>
       <v-icon small left>mdi-atom-variant</v-icon>

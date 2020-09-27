@@ -116,6 +116,7 @@
         'sass',
         'node',
         'kubernetes',
+        'chart',
       ]"
     />
 

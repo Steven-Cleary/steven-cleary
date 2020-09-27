@@ -16,7 +16,10 @@
         Create polls, answer polls, and see how others responded.
       </div>
     </v-card-text>
-    <technology-chips class="pl-4" :technologies="['django', 'angular']" />
+    <technology-chips
+      class="pl-4"
+      :technologies="['ts', 'django', 'angular']"
+    />
     <v-card-actions class="pa-4 pb-6">
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
