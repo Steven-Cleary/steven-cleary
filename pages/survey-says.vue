@@ -63,7 +63,7 @@
       that were scraped from twitter.
     </div>
 
-    <div class="text-h3 my-4 mt-12">Features</div>
+    <div class="text-h4 my-4 mt-12">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded mt-4">
       <div class="text-h5 font-weight-light my-4">Social Login</div>
       <div class="body-1 my-4">
