@@ -18,6 +18,14 @@
       >
       to open the project in github on a new tab.
     </div>
+    <div class="text-h5 mt-12">Architecture</div>
+    <div class="body-1 my-4">
+      I host this app using kubernetes. And this app is hosted on the same
+      cluster that Financially Financed is hosted on. If you want to learn more,
+      click
+      <nuxt-link to="/financially-financed#architecture">here</nuxt-link>
+      to see the architecture section of the Financially Financed overview page.
+    </div>
     <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
     <technology-chips
       :technologies="[

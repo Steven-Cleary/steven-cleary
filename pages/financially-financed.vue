@@ -123,7 +123,7 @@
     <div class="body-1 my-4">
       Anastasia Huff
     </div>
-    <div class="text-h5 mt-12">Architecture</div>
+    <div id="architecture" class="text-h5 mt-12">Architecture</div>
     <div class="body-1 my-4">
       We have a very simple architecture. We have a single nuxt app that we host
       on a basic kubernetes setup.
