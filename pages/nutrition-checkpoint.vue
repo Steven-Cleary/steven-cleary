@@ -27,7 +27,7 @@
       And you would be able to see the cost effectiveness of different diets
       that you create.
     </div>
-    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <div class="text-h5 my-4 mb-2 mt-12">Uses</div>
     <technology-chips :technologies="['js', 'angular']" />
     <v-img
       class="mt-8 rounded"

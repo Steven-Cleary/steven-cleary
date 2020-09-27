@@ -21,7 +21,7 @@
       We would pull the game a large screen and people would send in words from
       their phones for others to guess.
     </div>
-    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <div class="text-h5 my-4 mb-2 mt-12">Uses</div>
     <technology-chips :technologies="['js', 'angular']" />
     <v-img
       class="mt-8 rounded"

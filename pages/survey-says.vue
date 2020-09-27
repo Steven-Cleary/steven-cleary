@@ -16,7 +16,7 @@
       to see the results. You can also ask your own questions that others can
       answer.
     </div>
-    <div class="text-h5 my-4 mb-2 mt-12">Technologies</div>
+    <div class="text-h5 my-4 mb-2 mt-12">Uses</div>
     <technology-chips
       :technologies="[
         'ts',
