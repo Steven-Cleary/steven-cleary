@@ -123,7 +123,22 @@
     <div class="body-1 my-4">
       Anastasia Huff
     </div>
-
+    <div class="text-h5 mt-12">Architecture</div>
+    <div class="body-1 my-4">
+      We have a very simple architecture. We have a single nuxt app that we host
+      on a basic kubernetes setup.
+    </div>
+    <v-img
+      class="mx-auto my-12"
+      height="auto"
+      max-width="300px"
+      src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1601229835/FFArchitecture_iq06yo.svg"
+    />
+    <div class="body-1 my-4">
+      However to save money we host our other applications, for example this
+      site, on the same cluster and nodes. That is why you see the ... . That
+      represents pods that host our other apps.
+    </div>
     <div id="features" class="text-h3 my-4 mt-12">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">
@@ -161,7 +176,6 @@
         Int so that we can show very large results.
       </div>
     </div>
-
     <div id="development-benefits" class="text-h3 my-4 mt-12">
       Development Benefits
     </div>
