@@ -139,7 +139,7 @@
       site, on the same cluster and nodes. That is why you see the ... . That
       represents pods that host our other apps.
     </div>
-    <div id="features" class="text-h3 my-4 mt-12">Features</div>
+    <div id="features" class="text-h4 my-4 mt-12">Features</div>
     <div class="blue-grey lighten-5 pa-4 rounded">
       <div class="text-h5 font-weight-light my-4">
         k = thousand, m = million, b = billion
@@ -176,7 +176,7 @@
         Int so that we can show very large results.
       </div>
     </div>
-    <div id="development-benefits" class="text-h3 my-4 mt-12">
+    <div id="development-benefits" class="text-h4 my-4 mt-12">
       Development Benefits
     </div>
     <div class="blue-grey lighten-5 pa-4 rounded">
