@@ -53,10 +53,26 @@
       You'll see that you should save roughly $320 a month if you want to reach
       $100k in 15 years.
     </div>
+    <div class="text-h5 mt-12">Overview</div>
     <div class="body-1 my-4 mb-2">
       Down below this I have included:
     </div>
     <ul>
+      <li>
+        The
+        <a
+          href="#architecture"
+          @click="
+            $vuetify.goTo('#architecture', {
+              duration: 300,
+              easing: 'easeInOutCubic',
+              offset: -50,
+            })
+          "
+        >
+          architecture
+        </a>
+      </li>
       <li>
         <a
           href="#features"
@@ -70,7 +86,7 @@
         >
           5 useful features
         </a>
-        that you can find in some/all of the calculators.
+        that you can find in some/all of the calculators
       </li>
       <li>
         <a
@@ -85,7 +101,7 @@
         >
           4 reasons
         </a>
-        why I still love working on this side project after over a year.
+        why I still love working on this side project after over a year
       </li>
 
       <li>
@@ -102,7 +118,6 @@
         >
           code
         </a>
-        .
       </li>
     </ul>
     <div class="text-h5 my-4 mb-2 mt-12">Uses</div>
