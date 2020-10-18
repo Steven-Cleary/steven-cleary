@@ -25,6 +25,27 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://res.cloudinary.com/dxbppu0tw/image/upload/v1603060608/portfolio/portfolio_h054ig.png',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Steven Cleary',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Portfolio Site',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: '//stevencleary.com',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
