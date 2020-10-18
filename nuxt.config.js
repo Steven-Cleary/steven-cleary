@@ -44,7 +44,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: '//stevencleary.com',
+        content: 'https://stevencleary.com',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
