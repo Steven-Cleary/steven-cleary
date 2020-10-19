@@ -1,20 +1,13 @@
-# steven-cleary
+# Hello
 
-## Build Setup
+My name is Steven Cleary.
 
-```bash
-# install dependencies
-$ npm install
+On here you will be able to find the [source code for my portfolio project](https://github.com/Steven-Cleary/steven-cleary).
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+I spend most of my time working on my side project [FinanciallyFinanced.com](https://financiallyfinanced.com). The source code for this project is in a private repo so you wont be able to see it unless you reach out to me.
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+If you would like to see a showcase of all my projects please visit [stevencleary.com](https://stevencleary.com).
 
-# generate static project
-$ npm run generate
-```
+The best way to reach me is by email.
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[steven.cleary.dev@gmail.com](mailto:steven.cleary.dev@gmail.com)
